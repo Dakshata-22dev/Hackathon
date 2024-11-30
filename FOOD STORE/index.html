@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD STORE</title>
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Normal CSS -->
+     <link rel="stylesheet" href="style2.css">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- Style
+h1:class="text-[Roboto] text-[#323f4b] text-[22px] leading-[26px]"
+p:class="text-[Roboto] text-[#7b8794] text-[16px] leading-[24px]"
+-->
+
+<body>
+
+    <header class="space-x-9">
+        <div class="logo flex gap-1">
+            <img src="logo.png" alt="Yum Eats Logo" style="width: 50px; height: auto; margin-right: 10px;" />
+            <h1 class="space-x-10">Yum Eats</h1>
+        </div>
+        <div class="space-x-9">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#why-choose-us">Why Choose Us?</a></li>
+                    <li><a href="#explore-menu">Explore Menu</a></li>
+                    <li><a href="#health">Health</a></li>
+                    <li><a href="#payment">Payment</a></li>
+                    <li><a href="#follow-us">Follow Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Hero section start -->
+     <section class="py-5" id="home">
+        <div class="2xl:container mx-auto">
+            <div class="w-[90%] mx-auto grid grid-cols-1">
+                <div class="image space-y-6 flex flex-col justify-center items-center">
+                    <p class="text-[Roboto] text-[#f5f7fa] text-[45px] leading-[65px]">Yum Eats</p>
+                    <p class="text-[Roboto] text-[#f5f7fa] text-[45px] leading-[54px]">Get Delicious Food Anytime</p>
+                    <p class="text-[Roboto] text-[#f5f7fa] text-[24px] leading-[36px]">Eat Smart & Healthy</p>
+                    <div class="flex gap-4">
+                        <button class="bg-[#C0A400] text-[Roboto] text-[16px] leading-[24px] text-[#f5f7fa] py-2 px-3 rounded-md" onclick="document.location='view.html'">View Menu</button>
+                    <button class="text-[#C0A400] border border-[#C0A400] border-solid py-2 px-3 rounded-md" onclick="document.location='order.html'">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Hero section end -->
+    <!-- Why Choose Us? start -->
+    <section id="why-choose-us" class="py-5 bg-[#F9FBFE]">
+        <div class="2xl:container mx-auto pb-5">
+            <div class="w-[90%] mx-auto grid grid-cols-1">
+                <p class="text-[Roboto] font-bold text-[#183b56] text-[28px] leading-[34px]">Why Choose Us?</p>
+                <p class="text-[Roboto] text-[#5a7184] text-[16px] leading-[24px]">We use both recipes and classic
+                    versions
+                    of famous food items</p>
+            </div>
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="flex flex-col items-center shadow-md p-5 rounded-lg gap-4">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/food-serve.png"
+                        alt="card 1">
+                    <p class="text-[Roboto] text-[#323f4b] text-[22px] leading-[26px]">Food Service</p>
+                    <p class="text-[Roboto] text-[#7b8794] text-[16px] leading-[24px]">Experience fine dining at the
+                        comfort
+                        of your home.All our orders are carefully packed and arranged
+                        to give you nothing less than perfect.</p>
+                </div>
+                <div class="flex flex-col items-center shadow-md p-5 rounded-lg gap-4">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/offers-img.png"
+                        alt="card 2">
+                    <p class="text-[Roboto] text-[#323f4b] text-[22px] leading-[26px]">Fresh Food</p>
+                    <p class="text-[Roboto] text-[#7b8794] text-[16px] leading-[24px]">The Fresh Food group provides
+                        fresh-cut fruits and vegetables dirextly picked from our partner farms
+                        and farm houses so that you always get them tree to plate.</p>
+                </div>
+                <div class="flex flex-col items-center shadow-md p-5 rounded-lg gap-4">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/fruits-img.png"
+                        alt="card 3">
+                    <p class="text-[Roboto] text-[#323f4b] text-[22px] leading-[26px]">Best Offers</p>
+                    <p class="text-[Roboto] text-[#7b8794] text-[16px] leading-[24px]">Food Coupons & OFFers upto 50%
+                        OFF
+                        and Exclusive Promo codes on All Online Food Orders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us? end -->
+
+    <!-- Explore menu start -->
+    <section id="explore-menu" class="py-5 ">
+        <div class="2xl:container mx-auto">
+            <div class="w-[90%] mx-auto grid grid-cols-1">
+                <div class="text-[Roboto] font-bold text-[#212529] text-[28px] leading-[34px]">
+                    <p>Explore Menu</p>
+                </div>
+            </div>
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="space-y-2 rounded-xl bg-white shadow-lg p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png"
+                        alt="food-1" class="rounded-xl">
+                    <p class="text-[Roboto] text-[#323f4b] text-[18px] leading-[22px]">Veg Starters</p>
+                    <div class="flex flex-row items-center gap-2">
+                        <a href="#" class="text-[Roboto] text-[#d5bb1e] text-[14px] leading-[21px] hover:underline">View
+                            All</a>
+                        <span class="text-[#d5bb1e]">
+                            <svg fill="currentColor" viewbox="0 0 16 16" height="1em" width="1em">
+                                <path fillrule="evenodd"
+                                    d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="space-y-2 rounded-lg bg-white shadow-lg p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-grilled-seafood-img.png"
+                        alt="food-1" class="rounded-xl">
+                    <p class="text-[Roboto] text-[#323f4b] text-[18px] leading-[22px]">Non-Veg Starters</p>
+                    <div class="flex flex-row items-center gap-2">
+                        <a href="#" class="text-[Roboto] text-[#d5bb1e] text-[14px] leading-[21px] hover:underline">View
+                            All</a>
+                        <span class="text-[#d5bb1e]">
+                            <svg fill="currentColor" viewbox="0 0 16 16" height="1em" width="1em">
+                                <path fillrule="evenodd"
+                                    d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="space-y-2 rounded-lg bg-white shadow-lg p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-hyderabadi-biryani-img.png"
+                        alt="food-1" class="rounded-xl">
+                    <p class="text-[Roboto] text-[#323f4b] text-[18px] leading-[22px]">Main Course</p>
+                    <div class="flex flex-row items-center gap-2">
+                        <a href="#" class="text-[Roboto] text-[#d5bb1e] text-[14px] leading-[21px] hover:underline">View
+                            All</a>
+                        <span class="text-[#d5bb1e]">
+                            <svg fill="currentColor" viewbox="0 0 16 16" height="1em" width="1em">
+                                <path fillrule="evenodd"
+                                    d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="space-y-2 rounded-lg bg-white shadow-lg p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-veg-starters-img.png"
+                        alt="food-1" class="rounded-xl">
+                    <p class="text-[Roboto] text-[#323f4b] text-[18px] leading-[22px]">Fish & Sea food</p>
+                    <div class="flex flex-row items-center gap-2">
+                        <a href="#" class="text-[Roboto] text-[#d5bb1e] text-[14px] leading-[21px] hover:underline">View
+                            All</a>
+                        <span class="text-[#d5bb1e]">
+                            <svg fill="currentColor" viewbox="0 0 16 16" height="1em" width="1em">
+                                <path fillrule="evenodd"
+                                    d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="space-y-2 rounded-lg bg-white shadow-lg p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-mushroom-noodles-img.png"
+                        alt="food-1" class="rounded-xl">
+                    <p class="text-[Roboto] text-[#323f4b] text-[18px] leading-[22px]">Noodles</p>
+                    <div class="flex flex-row items-center gap-2">
+                        <a href="#" class="text-[Roboto] text-[#d5bb1e] text-[14px] leading-[21px] hover:underline">View
+                            All</a>
+                        <span class="text-[#d5bb1e]">
+                            <svg fill="currentColor" viewbox="0 0 16 16" height="1em" width="1em">
+                                <path fillrule="evenodd"
+                                    d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="space-y-2 rounded-lg bg-white shadow-lg p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-gluten-img.png"
+                        alt="food-1" class="rounded-xl">
+                    <p class="text-[Roboto] text-[#323f4b] text-[18px] leading-[22px]">Salads</p>
+                    <div class="flex flex-row items-center gap-2">
+                        <a href="#" class="text-[Roboto] text-[#d5bb1e] text-[14px] leading-[21px] hover:underline">View
+                            All</a>
+                        <span class="text-[#d5bb1e]">
+                            <svg fill="currentColor" viewbox="0 0 16 16" height="1em" width="1em">
+                                <path fillrule="evenodd"
+                                    d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="space-y-2 rounded-lg bg-white shadow-lg p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-coffee-bourbon-img.png"
+                        alt="food-1" class="rounded-xl">
+                    <p class="text-[Roboto] text-[#323f4b] text-[18px] leading-[22px]">Desserts</p>
+                    <div class="flex flex-row items-center gap-2">
+                        <a href="#" class="text-[Roboto] text-[#d5bb1e] text-[14px] leading-[21px] hover:underline">View
+                            All</a>
+                        <span class="text-[#d5bb1e]">
+                            <svg fill="currentColor" viewbox="0 0 16 16" height="1em" width="1em">
+                                <path fillrule="evenodd"
+                                    d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="space-y-2 rounded-lg bg-white shadow-lg p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-soup-img.png"
+                        alt="food-1" class="rounded-xl">
+                    <p class="text-[Roboto] text-[#323f4b] text-[18px] leading-[22px]">Paneer</p>
+                    <div class="flex flex-row items-center gap-2">
+                        <a href="#" class="text-[Roboto] text-[#d5bb1e] text-[14px] leading-[21px] hover:underline">View
+                            All</a>
+                        <span class="text-[#d5bb1e]">
+                            <svg fill="currentColor" viewbox="0 0 16 16" height="1em" width="1em">
+                                <path fillrule="evenodd"
+                                    d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Explore menu end -->
+    <!-- Health section start -->
+    <section id="health" class="py-5">
+        <div class="2xl:container mx-auto bg-[#F9FBFE]">
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 p-5 ">
+                <div class="flex flex-row justify-center items-center">
+                    <!-- Image -->
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/healthy-food-plate-img.png"
+                        alt="health section" class="h-36px p-5">
+                </div>
+                <div class="flex flex-col items-start justify-center space-y-2 ">
+                    <p class="text-[Roboto] text-[#183b56] font-bold text-[28px] leading-[34px]">Fresh, Healthy,
+                        Organic,
+                        Delicious Fruits</p>
+                    <p class="text-[Roboto] text-[#7b8794] text-[16px] leading-[24px]">Say no to harmful chemicals and
+                        go fully organic with our range of fresh fruits and veggies. Pamper
+                        your body and your senses with the true and unadulterated gifts from mother nature. with the
+                        true
+                        and unadulterated gifts from mother nature.
+                    </p>
+                    <button class="bg-[#B59B00] text-[white] text-[16px] leading-[24px] p-2 px-4 rounded-md">Watch
+                        Video</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Health section end -->
+    <!-- Payment Section start -->
+    <section id="payment" class="py-5">
+        <div class="2xl:container mx-auto">
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2">
+                <div class="space-y-4 order-2 md:order-1">
+                    <p class="text-[Roboto] text-[#183b56] font-bold text-[28px] leading-[34px]">Delivery and
+                        Payment</p>
+                    <p class="text-[Roboto] text-[#7b8794] text-[16px] leading-[24px]">Enjoy hassle-free payment with
+                        the plenitude of payment options available for you. Get live
+                        tracking and locate your food on a live map. It's quite a sight to see your food arrive to your
+                        door. Plus, you get a 5% discount on every order every time you pay online.</p>
+                    <button class="bg-[#B59B00] text-[white] text-[16px] leading-[24px] p-2 px-4 rounded-md">Order
+                        Now</button>
+                    <div class="flex h-16 gap-6">
+                        <!-- Payment methods -->
+                        <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/visa-card-img.png"
+                            alt="visa">
+                        <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/master-card-img.png"
+                            alt="master card">
+                        <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/paypal-card-img.png"
+                            alt="pay pal">
+                        <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/american-express-img.png"
+                            alt="american express">
+                    </div>
+                </div>
+                <div class="flex flex-row justify-center items-center order-1 md:order-2">
+                    <!-- Image -->
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/delivery-payment-section-img.png"
+                        alt="pay-card" class="h-56">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Payment Section end  -->
+    <!-- Gift Sextion start -->
+    <section class="py-5 bg-[#FCECAD]">
+        <div class="2xl:container mx auto">
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2">
+                <div class="flex flex-col items-start justify-center">
+                    <p class="text-[Roboto] text-[#183b56] font-bold text-[28px] leading-[34px]">Thank you for being a
+                        valuable customer to us.</p>
+                    <p class="text-[Roboto] text-[#7b8794] text-[16px] leading-[24px]">We have a surprise gift for you
+                    </p>
+                    <button class="bg-[#B59B00] text-[white] text-[16px] leading-[24px] p-2 px-4 rounded-md">Redeem
+                        Gift</button>
+                </div>
+                <div class="flex flex-row justify-center items-center">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/thanking-customers-section-img.png"
+                        alt="gift-card" class="h-64">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gift section end -->
+    <!-- Follow us section start -->
+    <section id="follow-us" class="py-5">
+        <div class="2xl:container mx-auto py-10">
+            <div class="w-[90%] mx-auto grid grid-cols-1">
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <p class="text-[Roboto] text-[#183b56] font-bold text-[28px] leading-[34px]">Follow Us</p>
+                    <div class="flex justify-center gap-4">
+                        <div class="bg-[#FAF7E8] rounded-[50px] h-[50px] w-[50px] flex flex-col justify-center items-center">
+                            <svg viewBox="0 0 1024 1024" fill="#D0B200" height="1.5em" width="1.5em">
+                                <path
+                                    d="M928 254.3c-30.6 13.2-63.9 22.7-98.2 26.4a170.1 170.1 0 0075-94 336.64 336.64 0 01-108.2 41.2A170.1 170.1 0 00672 174c-94.5 0-170.5 76.6-170.5 170.6 0 13.2 1.6 26.4 4.2 39.1-141.5-7.4-267.7-75-351.6-178.5a169.32 169.32 0 00-23.2 86.1c0 59.2 30.1 111.4 76 142.1a172 172 0 01-77.1-21.7v2.1c0 82.9 58.6 151.6 136.7 167.4a180.6 180.6 0 01-44.9 5.8c-11.1 0-21.6-1.1-32.2-2.6C211 652 273.9 701.1 348.8 702.7c-58.6 45.9-132 72.9-211.7 72.9-14.3 0-27.5-.5-41.2-2.1C171.5 822 261.2 850 357.8 850 671.4 850 843 590.2 843 364.7c0-7.4 0-14.8-.5-22.2 33.2-24.3 62.3-54.4 85.5-88.2z" />
+                            </svg>
+                        </div>
+                        <div class="bg-[#FAF7E8] rounded-[50px] h-[50px] w-[50px] flex flex-col justify-center items-center">
+                            <svg viewBox="0 0 24 24" fill="#D0B200" height="1.5em" width="1.5em" >
+                                <path
+                                    d="M11.999 7.377a4.623 4.623 0 100 9.248 4.623 4.623 0 000-9.248zm0 7.627a3.004 3.004 0 110-6.008 3.004 3.004 0 010 6.008z" />
+                                <path
+                                    d="M17.884 7.207 A1.078 1.078 0 0 1 16.806 8.285 A1.078 1.078 0 0 1 15.728000000000002 7.207 A1.078 1.078 0 0 1 17.884 7.207 z" />
+                                <path
+                                    d="M20.533 6.111A4.605 4.605 0 0017.9 3.479a6.606 6.606 0 00-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 00-2.184.42 4.6 4.6 0 00-2.633 2.632 6.585 6.585 0 00-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 002.634 2.632 6.584 6.584 0 002.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 002.186-.419 4.613 4.613 0 002.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 00-.421-2.217zm-1.218 9.532a5.043 5.043 0 01-.311 1.688 2.987 2.987 0 01-1.712 1.711 4.985 4.985 0 01-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 01-1.669-.311 2.985 2.985 0 01-1.719-1.711 5.08 5.08 0 01-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 01.311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 011.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 011.67.311 2.991 2.991 0 011.712 1.712 5.08 5.08 0 01.311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z" />
+                            </svg>
+                        </div>
+                        <div class="bg-[#FAF7E8] rounded-[50px] h-[50px] w-[50px] flex flex-col justify-center items-center">
+                            <svg viewBox="0 0 24 24" fill="#D0B200" height="1.5em" width="1.5em" >
+                                <path
+                                    d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Follow us section end -->
+    <!-- Footer section start -->
+     <section class="py-15 bg-[#0D2436]">
+        <div class="2xl:container mx-auto py-10">
+            <div class="w-[90%] mx-auto grid grid-cols-1">
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="logo.png" alt="logo" class="h-16">
+                    <p class="text-[#959EAD] text-[16px] leading-[19px] font-semibold">orderfood@yumeats.com</p>
+                    <p class="text-[#959EAD] text-[14px] leading-[21px]">123 Ayur Vigyan Nagar, New Delhi, India.</p>
+                </div>
+            </div>
+         </div>
+     </section>
+    <!-- Footer section end -->
+</body>
+
+</html>

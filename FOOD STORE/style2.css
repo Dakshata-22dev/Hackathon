@@ -1,0 +1,206 @@
+.image{
+    background-image:url('https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/foodmunch-banner-bg.png');
+    height:100vh;
+    background-repeat:no-repeat ;
+    background-size:cover;
+}
+
+.load{
+    transform: translate(-50%,-50%);
+    top:50%;
+    bottom: 50%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #C0A400;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main order container */
+.order-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Form heading */
+.order-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Food item input styles */
+.food-item, .contact-info .contact-item {
+    margin: 10px 0;
+}
+
+.food-item label, .contact-info label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.food-item input, .contact-info input, .order-summary textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Contact info box */
+.contact-info {
+    margin-top: 20px;
+}
+
+/* Textarea for delivery address */
+.order-summary {
+    margin: 20px 0;
+}
+
+.order-summary textarea {
+    height: 100px;
+}
+
+/* Submit button */
+.submit-btn {
+    text-align: center;
+}
+
+.submit-btn button {
+    background-color: #C0A400;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn button:hover {
+    background-color: #C0A400;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* Header Styling */
+header {
+    background-color: #C0A400;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;  /* Align items to the left */
+}
+
+nav ul li {
+    margin-left: 20px;  /* Space between menu items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff8e1; /* Hover color */
+}
+
+/* Section Styling */
+section {
+    padding: 50px 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #C0A400;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Order Now</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo flex">
+            <img src="logo.png" alt="Yum Eats Logo" style="width: 50px; height: auto; margin-right: 10px;" />
+            <h1>Yum Eats</h1>
+        </div>
+    </header>
+
+    <div class="order-container">
+        <h2>Order Your Favorite Food</h2>
+        <form action="#" method="POST">
+            <!-- Veg Starters -->
+            <div class="food-item">
+                <label for="veg-starters">Veg Starters</label>
+                <input type="number" id="veg-starters" name="veg-starters" min="0" placeholder="Qty" />
+            </div>
+
+            <!-- Non-Veg Starters -->
+            <div class="food-item">
+                <label for="non-veg-starters">Non-Veg Starters</label>
+                <input type="number" id="non-veg-starters" name="non-veg-starters" min="0" placeholder="Qty" />
+            </div>
+
+            <!-- Main Course -->
+            <div class="food-item">
+                <label for="main-course">Main Course</label>
+                <input type="number" id="main-course" name="main-course" min="0" placeholder="Qty" />
+            </div>
+
+            <!-- Pizza -->
+            <div class="food-item">
+                <label for="pizza">Pizza</label>
+                <input type="number" id="pizza" name="pizza" min="0" placeholder="Qty" />
+            </div>
+
+            <!-- Burger -->
+            <div class="food-item">
+                <label for="burger">Burger</label>
+                <input type="number" id="burger" name="burger" min="0" placeholder="Qty" />
+            </div>
+
+            <!-- Pasta -->
+            <div class="food-item">
+                <label for="pasta">Pasta</label>
+                <input type="number" id="pasta" name="pasta" min="0" placeholder="Qty" />
+            </div>
+
+            <!-- Salad -->
+            <div class="food-item">
+                <label for="salad">Salad</label>
+                <input type="number" id="salad" name="salad" min="0" placeholder="Qty" />
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                </div>
+
+                <div class="contact-item">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
+                </div>
+            </div>
+
+            <!-- Delivery Address -->
+            <div class="order-summary">
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" placeholder="Enter your delivery address" required></textarea>
+            </div>
+
+            <div class="submit-btn">
+                <button type="submit">Place Order</button>
+            </div>
+        </form>
+    </div>
+    <section class="py-15 bg-[#0D2436]">
+        <div class="2xl:container mx-auto py-10">
+            <div class="w-[90%] mx-auto grid grid-cols-1">
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="logo.png" alt="logo" class="h-16">
+                    <p class="text-[#959EAD] text-[16px] leading-[19px] font-semibold">orderfood@yumeats.com</p>
+                    <p class="text-[#959EAD] text-[14px] leading-[21px]">123 Ayur Vigyan Nagar, New Delhi, India.</p>
+                </div>
+            </div>
+         </div>
+     </section>
+
+</body>
+</html>
